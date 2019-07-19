@@ -13,17 +13,14 @@
 
 ## Description
 
-The basic structure and beggining of the development was made by following the tutorial:
+The basic structure and beggining of the app was made by following the tutorial:
 https://redux.js.org/basics/example
 
-Added features:
+I then added the following features:
 - Make Urgent: Allows the user to highlight a todo in red
 - Delete: Allows user to delete an added Todo
 - Deleted list: Tab to view all deleted Todos
 - All styling and css, as well as responsiveness to screen (mobile friendly)
-
-* `create-react-app` is a global command-line utility that you use to create new projects.
-* `react-scripts` is a development dependency in the generated projects (including this one).
 
 
 ## How To Use and Run In Local
@@ -36,18 +33,36 @@ How to...
 ```
 my-app/
   README.md
-  node_modules/
   package.json
+  package-lock.json
+  yarn.lock
+  node_modules/
   public/
     index.html
     favicon.ico
   src/
-    App.css
-    App.js
-    App.test.js
+    actions/
+      index.js
+      index.spec.js
+    components/
+      App.css
+      App.js
+      background-image.jpg
+      Footer.js
+      Link.js
+      Todo.js
+      TodoList.js
+    containers/
+      AddTodo.js
+      FilterLink.js
+      VisibleTodoList.js
+    reducers/
+      index.js
+      todos.js
+      todos.spec.js
+      visibilityFilter.js
     index.css
     index.js
-    logo.svg
 ```
 
 
