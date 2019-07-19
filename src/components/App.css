@@ -1,0 +1,142 @@
+/*making background*/
+html { 
+  background: url(background-image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* Styling of general page display */
+.App-header {
+  font-size: 24px;
+  text-align: center;
+  background-color:rgb(219, 240, 247);
+  padding: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* styling the input field*/
+input {
+  font-size: 18px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: rgb(9, 74, 99);
+}
+
+/* styling all buttons on screen, on hover*/
+button {
+  padding: 10px;
+  margin: 6px;
+  font-size: 18px;
+  color: black;
+  background-color: lightblue;
+  border: 1px;
+  border-radius: 6px;
+  outline: none;
+
+}
+button:hover {
+  background-color: lightskyblue;
+  cursor: pointer
+}
+button:disabled {
+  background-color: lightgray;
+  color: rgb(89, 89, 89);
+}
+
+/* styling the Show label */
+.show-style {
+  font-size: 25px;
+  color:black;
+  padding:15px;
+}
+
+/* styling the whole list*/
+.list-todos{
+  text-align: left;
+  display: flex;
+  margin-left: calc(50vw - 340px);
+  margin-right: calc(50vw - 270px);
+}
+/*styling a todo with the urgent and delete options*/
+.todo-and-options {
+  display: flex;
+  flex-direction: row;
+}
+
+/*styling the urgent and delete together*/
+.urgent-and-delete {
+  display: flex;
+  flex-direction: row;
+}
+
+/*styling the urgent button*/
+.urgent {
+  cursor: pointer;
+  margin: 7px;
+  padding:4px;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  display: none;
+  max-height: 35px;
+  overflow: visible;
+}
+/* styling the delete button */
+.delete {
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding:4px;
+  padding-left: 10px;
+  color:rgb(31, 31, 116);
+  display: none;
+}
+.todo-and-options:hover .urgent {
+  display:block;
+}
+.todo-and-options:hover .delete {
+  display:block;
+}
+
+/*styling a todo on its own*/
+.individual-todo {
+  max-width: 550px;
+  font-size: 25px;
+  padding: 6px;
+  padding-right: 15px;
+  overflow-wrap: break-word;
+}
+
+
+/*responsive for phone, making necesary modifications*/
+@media only screen and (max-width: 900px) {
+  .list-todos {
+    margin-left: calc(50vw - 250px);
+  margin-right: calc(50vw - 250px);
+  }
+  .todo-and-options {
+    flex-direction: column;
+  }
+  .urgent {
+    max-width: 90px;
+  }
+
+  .urgent-and-delete {
+    flex-direction: row;
+  }
+
+  .individual-todo {
+    max-width: 400px;
+  }
+}
