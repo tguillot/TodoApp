@@ -34,6 +34,10 @@ To run in local:
 - list your todos!
 
 How to use App:
+- Add a todo by writing it in the input box
+- Click the text of the todo to mark as complete
+- Hover over the todo to display options of "Make Urgent" and "Delete"
+- In the footer, select the display mode to change between wht todos are visible
 
 
 
