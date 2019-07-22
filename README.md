@@ -2,7 +2,7 @@
 ## Table of Contents
 
 - [Description](#description)
-- [How to Use](#how-to-use-and-run-in-local)
+- [How to Use](#how-to-run-in-local-and-use)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -27,7 +27,7 @@ I then added the following features:
 
 To run in local:
 - Download all files into local keeping the same folder structure 
-- If you don't have it already, download and install node js: https://nodejs.org/en/download/ (npm will install aswell automatically)
+- If you don't have it already, download and install node js: https://nodejs.org/en/download/ (npm will install as well automatically)
 - Run in the terminal `npm install --save react-redux`
 - In the terminal, in the todo app folder run `npm start` 
 - with a browser open the ip address where the app is runing
