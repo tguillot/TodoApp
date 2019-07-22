@@ -29,8 +29,8 @@ To run in local:
 - If you don't have it already, download and install node js: https://nodejs.org/en/download/ (npm will install as well automatically)
 - Run in the terminal `npm install --save react-redux`
 - In the terminal, in the todo app folder run `npm start` 
-- with a browser open the ip address where the app is runing
-- list your todos!
+- With a browser open the ip address where the app is runing
+- List your todos!
 
 How to use App:
 - Add a todo by writing it in the input box
