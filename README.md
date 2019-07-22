@@ -23,9 +23,19 @@ I then added the following features:
 - All styling and css, as well as responsiveness to screen (mobile friendly)
 
 
-## How To Use and Run In Local
+## How To Run In Local and Use
 
-How to...
+To run in local:
+- Download all files into local keeping the same folder structure 
+- If you don't have it already, download and install node js: https://nodejs.org/en/download/ (npm will install aswell automatically)
+- Run in the terminal `npm install --save react-redux`
+- In the terminal, in the todo app folder run `npm start` 
+- with a browser open the ip address where the app is runing
+- list your todos!
+
+How to use App:
+
+
 
 ## Folder Structure
 
