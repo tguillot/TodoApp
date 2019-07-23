@@ -30,6 +30,7 @@ input {
   width: 300px;
   border-radius: 5px;
   border-color: rgb(9, 74, 99);
+  margin-right: 10px;
 }
 
 /* styling all buttons on screen, on hover*/
